@@ -1,0 +1,37 @@
+.header{
+background-color: #008c2b;
+ }
+
+ .header .logo h1 {
+color: white
+
+ }
+
+ .header .logo img {
+    max-height: 70px
+ }
+
+    body, h1,input, span {
+        font-family: 'open sans','sans-serief' !important;
+    }
+
+.mx-2{
+ color: #FFFFFF;      
+}
+
+.credits a {
+    color: black !important
+
+ }
+
+ .justificado {
+text-align: justify;
+ }
+ 
+ .footer .footer-legal .social-links a {
+   color: var(--color-black);
+    
+  }
+
+.footer { 
+    background: #FFFFFF }

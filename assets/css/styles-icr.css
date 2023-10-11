@@ -1,0 +1,15 @@
+.header {
+  background-color: #008C2B;
+
+}
+.header .logo h1 {
+  color: #FFFFFF;
+}
+
+.header .logo img {
+  max-height: 60px;
+}
+
+body, h1, h6, input, span{
+  font-family: 'Open Sans', 'sans-serif' !important;
+}
