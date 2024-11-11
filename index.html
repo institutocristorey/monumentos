@@ -1,118 +1,256 @@
 <!DOCTYPE html>
 
 <html lang="es">
-    <head>
-    	<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- SEO -->
-<title>Apóstoles</title><meta name="description" content="Municipalidad de Apóstoles"/>
-<!-- og meta for facebook, googleplus -->
-<meta property="og:title" content="Apóstoles"/>
-<meta property="og:description" content="Municipalidad de Apóstoles"/>
-<meta property="og:url" content="https://apostoles.gob.ar"/>
-<meta property="og:type" content="website" />
-<meta property="og:image" content="https://apostoles.gob.ar/wp-content/uploads/2022/08/APOSTOLES-logo-2022-1.png"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- twitter meta -->
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Apóstoles"/>
-<meta name="twitter:description" content="Municipalidad de Apóstoles"/>
-<meta name="twitter:url" content="https://apostoles.gob.ar"/>
-<meta name="twitter:image" content="https://apostoles.gob.ar/wp-content/uploads/2022/08/APOSTOLES-logo-2022-1.png"/>
+    <!-- SEO -->
+    <title>Apóstoles</title>
+    <meta name="description" content="Municipalidad de Apóstoles" />
+    <!-- og meta for facebook, googleplus -->
+    <meta property="og:title" content="Apóstoles" />
+    <meta property="og:description" content="Municipalidad de Apóstoles" />
+    <meta property="og:url" content="https://apostoles.gob.ar" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://apostoles.gob.ar/wp-content/uploads/2022/08/APOSTOLES-logo-2022-1.png" />
 
-<link id="favicon" rel="shortcut icon" href="https://apostoles.gob.ar/wp-content/uploads/2022/08/cropped-WEB-2020-Fav-Icon-150x150.png" type="image/x-icon"/><link rel="stylesheet" href="https://apostoles.gob.ar/wp-content/plugins/cmp-coming-soon-maintenance/themes/hardwork/style.css?v=4.1.2" type="text/css" media="all">
-<link rel="stylesheet" href="https://apostoles.gob.ar/wp-content/plugins/cmp-coming-soon-maintenance/css/animate.min.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" >
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:600%7COpen+Sans:400,700,400&amp;subset=greek,cyrillic-ext,latin-ext,cyrillic,latin,vietnamese,greek-ext" rel="stylesheet">
+    <!-- twitter meta -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Apóstoles" />
+    <meta name="twitter:description" content="Municipalidad de Apóstoles" />
+    <meta name="twitter:url" content="https://apostoles.gob.ar" />
+    <meta name="twitter:image"
+        content="https://apostoles.gob.ar/wp-content/uploads/2022/08/APOSTOLES-logo-2022-1.png" />
+
+    <link id="favicon" rel="shortcut icon"
+        href="https://apostoles.gob.ar/wp-content/uploads/2022/08/cropped-WEB-2020-Fav-Icon-150x150.png"
+        type="image/x-icon" />
+    <link rel="stylesheet"
+        href="https://apostoles.gob.ar/wp-content/plugins/cmp-coming-soon-maintenance/themes/hardwork/style.css?v=4.1.2"
+        type="text/css" media="all">
+    <link rel="stylesheet"
+        href="https://apostoles.gob.ar/wp-content/plugins/cmp-coming-soon-maintenance/css/animate.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:600%7COpen+Sans:400,700,400&amp;subset=greek,cyrillic-ext,latin-ext,cyrillic,latin,vietnamese,greek-ext"
+        rel="stylesheet">
 
 
-        <style>
-            body,input {font-family:'Open Sans', 'sans-serif';color:#ffffff;}
-                            .social-list {background-color: rgba(0,0,0,0.4);}
-                            a {color:#ffffff;}
-            h1,h2,h3,h4,h5,h6 {font-family:'Open Sans', 'sans-serif';}
-            body {font-size:17px; letter-spacing: 0px; font-weight:400;; }
-            h1:not(.text-logo),h2, h3,h4,h5,h6,.text-logo-wrapper {font-size:1.7647058823529em;letter-spacing: 0px; font-weight:600;font-style: normal;; }
-            h1 {font-weight:600;font-style: normal;;}
-        </style>
+    <style>
+        body {
+            font-family: 'Open Sans';
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #46403A, #008c2b);
+            color: #d1ebb1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+    </style>
 
+    <style>
+        .wp-video {
+            margin: 0 auto;
+        }
+
+        .wp-video-shortcode {
+            max-width: 100%;
+        }
+
+        .grecaptcha-badge {
+            display: none !important;
+        }
+
+        .text-logo {
+            display: inline-block;
+        }
+
+        #gdpr-checkbox {
+            -webkit-appearance: checkbox;
+            -moz-appearance: checkbox;
+            width: initial;
+            height: initial;
+        }
+
+        #counter.expired {
+            display: none;
+        }
+
+        input,
+        button {
+            box-shadow: inset 0 0 0 0 !important;
+            -webkit-box-shadow: inset 0 0 0 0 !important;
+            -webkit-appearance: none;
+            outline: none;
+        }
+    </style>
+
+
+
+
+    <!-- custom logo height -->
+    <style>
+        @media screen and (min-width:1024px) {
+            .logo-wrapper img {
+                max-height: 90px
+            }
+        }
+    </style>
+
+
+</head>
+
+<style>
+    .social-list {
+        display: flex;
+        justify-content: center;
+        padding: 0.3px;
+        background-color: transparent;
+       
+    }
+    a{
+            color: black;
+        }
+  
+        a:hover{
+            color: red;
+        }
+  
+        a:active{
+            color: blue;
+        }
+
+    .footer{
+        height: 100px; 
+        line-height: 100px;
+        text-align: center; 
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 0vh;
+        margin: 0;
+
+    }
+
+    .button {
+        padding: 10px 20px;
+        background-color: #008C2B;
+        color: #46403A;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.2em;
+        transition: background-color 0.3s ease;
+    }
+
+
+    .social-child a {
+        margin: 0 30px;
+        font-size: 1.5em;
+        color: #ffffff;
+        transition: color 0.3s ease
+    }
+
+    social-child a:hover {
+        color: #ffcc00;
+    }
+</style>
+
+<body id="body">
+
+    <div class="d-flex justify-content-center">
         
+    </div>
 
-<style>
-    .wp-video {margin: 0 auto;}
-    .wp-video-shortcode {max-width: 100%;}
-    .grecaptcha-badge {display: none!important;}
-    .text-logo {display: inline-block;}
-    #gdpr-checkbox {-webkit-appearance: checkbox;-moz-appearance: checkbox;width: initial;height: initial;}
-    #counter.expired {display: none; }
-    input, button {
-        box-shadow: inset 0 0 0 0 !important;
-        -webkit-box-shadow: inset 0 0 0 0 !important;
-        -webkit-appearance: none;
-        outline: none;
-    }
-</style>
+    <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+    
+    <div class="container">
+        
+        <div class="row g-5">
+            <div class="col-lg-4">
+          </div>
+          
+    </div>
 
+    <div id="background-wrapper">
 
-<!-- custom logo height -->
-<style>
-    @media screen and (min-width:1024px) {
-    .logo-wrapper img {max-height: 90px}
-    }
-</style>
-
-
-    </head>
-
-
-    <body id="body">
-        <div id="background-wrapper">
-
-         <div id="background-image" class="color loaded" style="background-color:#008c2b"></div>
+        <div id="background-image" class="color loaded" style="background-color:#174123"></div>
+    </div>
+    
+    <section class="section section-body">
+        <img src="assets/img/logo-blanco.png"></a></div>
+        <p> ¡Bienvenidos! Los invitamos a conocer los monumentos de nuestra ciudad.
+        </p>
+        <br>
+        <div class="button-container">
+            <button class="button"><a href="retoño-pino.html">Inicio</a></button>
         </div>
-
+        <br>
+    </section>
+    <br>
+    <div class="social-list">
         
-        <section class="section section-body">
-            <img src="assets/img/logo-blanco.png"></a></div><p> ¡Bienvenidos! Los invitamos a conocer los monumentos de nuestra ciudad.
-            </p>
-            <br>
-            <br>
-            <br>
-            <p>(Página en desarrollo...)</p>
-         </section>
-        <ul class="social-list"><li class="social-child"><a href="https://facebook.com/muniapostoles" target="top" class="social-facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a></li><li class="social-child"><a href="https://twitter.com/muniapostoles" target="top" class="social-twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a></li><li class="social-child"><a href="https://instagram.com/muniapostoles" target="top" class="social-instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a></li></ul>
-    <!-- Fade in background image after load -->
+        <div class="social-child"><a href="https://facebook.com/muniapostoles" target="_blank"><i
+                    class="fab fa-facebook"></i></a></div>
+        <div class="social-child"><a href="https://twitter.com/muniapostoles" target="_blank"><i
+                    class="fab fa-twitter"></i></a></div>
+        <div class="social-child"><a href="https://instagram.com/muniapostoles" target="_blank"><i
+                    class="fab fa-instagram"></i></a></div>
+        <br>
+    </div>
+
+    <div class="footer-legal">
+        <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+          <div class="row justify-content-between">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              <div class="credits">
+                <img src="assets/img/Apos2020-FavIcon.ico"style="max-height:40px" alt=""/>
+                 <span>&copy;Derechos Reservados Municipalidad de Apóstoles</span>
+              </a>
+              </div>
+            </div>
+
+
     <script>
-        window.addEventListener("load",function(event) {
+        window.addEventListener("load", function (event) {
             init();
         });
 
-        function init(){
+        function init() {
 
             var image = document.getElementById('background-image');
             var body = document.getElementById('body');
-            
-            if ( image === null ) {
-                image = document.getElementById('body');
-            } 
 
-            if ( image != null ) {
-                if ( image.className !== 'image-unsplash') {
+            if (image === null) {
+                image = document.getElementById('body');
+            }
+
+            if (image != null) {
+                if (image.className !== 'image-unsplash') {
                     image.classList.add('loaded');
                     body.classList.add('loaded');
                 }
             }
 
-                    }
+        }
     </script>
-
-    
-    
-
-<!-- Build by CMP – Coming Soon Maintenance Plugin by NiteoThemes -->
-<!-- Visit plugin page https://wordpress.org/plugins/cmp-coming-soon-maintenance/ -->
-<!-- More CMP Themes on https://niteothemes.com -->
-    </body>
+    <!-- Build by CMP – Coming Soon Maintenance Plugin by NiteoThemes -->
+    <!-- Visit plugin page https://wordpress.org/plugins/cmp-coming-soon-maintenance/ -->
+    <!-- More CMP Themes on https://niteothemes.com -->
+     
+</body>
 
 </html>
